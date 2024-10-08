@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Cybergotchi",
+  "version": "1.0",
+  "description": "A Chrome extension where you can take care of your own virtual pet!",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {}
+}
