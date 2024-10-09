@@ -10,5 +10,6 @@
   "background": {
     "service_worker": "background.js"
   },
-  "icons": {}
+  "icons": {},
+  "host_permissions": ["<all_urls>"]
 }
