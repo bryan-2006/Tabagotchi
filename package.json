@@ -4,15 +4,15 @@
     "description": "A Chrome extension where you can take care of your own virtual pet!",
     "main": "src/js/main.js",
     "scripts": {
-      "build": "parcel build src/js/main.js -d src/build/ -o main.js",
-      "watch": "parcel watch src/js/main.js -d src/build/ -o main.js"
+        "build": "parcel build src/js/main.js -d src/build/ -o main.js",
+        "watch": "parcel watch src/js/main.js -d src/build/ -o main.js"
     },
     "author": "Bryan",
     "dependencies": {
-      "babel-preset-env": "^1.6.1",
-      "babel-preset-react": "^6.24.1",
-      "parcel-bundler": "^1.6.2",
-      "react": "^16.2.0",
-      "react-dom": "^16.2.0"
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.24.1",
+        "parcel-bundler": "^1.6.2",
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0"
     }
-  }
+}
