@@ -1,20 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
 <html>
-  <head>
-    <style>
-      body {
-        width: 300px;
-        padding: 10px;
-        font-family: Arial, sans-serif;
-      }
-    </style>
-    <title>Cybergotchi</title>
-  </head>
-  <body>
-    <h2>Pet Name</h2>
-    <div id="content" style="margin-top: 10px;">
 
-    </div>
-    <script src="popup.js"></script>
-  </body>
+<head>
+  <title>Tabagotchi</title>
+  <style type="text/css">
+    body {
+      margin: 10px;
+      white-space: nowrap;
+    }
+
+    #container {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .start {
+      border: 1px solid #000;
+      border-radius: 15px;
+      padding: 5px 15px;
+      cursor: pointer;
+    }
+  </style>
+
+  <script src="js/popup.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <!--
+      Render react app in the visited website when the .start button is clicked.
+     -->
+    <button class="start">
+      Start
+    </button>
+  </div>
+</body>
+
 </html>
