@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "A Chrome extension where you can take care of your own virtual pet!",
 
-  "browser_action": {
+  "action": {
     "default_icon": "assets/controller.png",
     "default_popup": "src/popup.html"
   },
